@@ -1,0 +1,1610 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mavy Jewels- Premium &amp; Authenicate Jewellery</title>
+    <!-- icon for the page  -->
+    <link
+      rel="icon"
+      href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Cpath fill='%23c9a227' d='M3.1.7a.5.5 0 0 1 .4-.2h9a.5.5 0 0 1 .4.2l2.976 3.974c.149.185.156.45.01.644L8.4 15.3a.5.5 0 0 1-.8 0L.1 5.3a.5.5 0 0 1 0-.6L3.1.7z'/%3E%3C/svg%3E"
+    />
+    <!-- css file for bootstrap bootstrap-icons and swiper  -->
+    <link rel="stylesheet" href="vendor/bootstrap/bootstrap.min.css" />
+    <link
+      rel="stylesheet"
+      href="vendor/bootstrap-icons/bootstrap-icons.min.css"
+    />
+    <link rel="stylesheet" href="vendor/swiper/swiper-bundle.min.css" />
+    <!-- Google Fonts (graceful serif fallbacks if offline) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,600;0,700;0,800;1,500;1,600&family=Jost:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <!-- custom css  -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- ══════════ Announcement bar ══════════ -->
+    <div class="topbar">
+      <div class="topbar-track">
+        <span
+          ><i class="bi bi-gem me-2"></i>Flat 20% off on diamond rings — code
+          SPARK20</span
+        >
+        <span
+          ><i class="bi bi-truck me-2"></i>Free insured shipping across
+          India</span
+        >
+        <span
+          ><i class="bi bi-patch-check me-2"></i>BIS Hallmarked 22K &amp; 18K
+          jewellery</span
+        >
+        <span
+          ><i class="bi bi-arrow-repeat me-2"></i>Lifetime exchange &amp;
+          buyback</span
+        >
+        <span
+          ><i class="bi bi-gem me-2"></i>Flat 20% off on diamond rings — code
+          SPARK20</span
+        >
+        <span
+          ><i class="bi bi-truck me-2"></i>Free insured shipping across
+          India</span
+        >
+        <span
+          ><i class="bi bi-patch-check me-2"></i>BIS Hallmarked 22K &amp; 18K
+          jewellery</span
+        >
+        <span
+          ><i class="bi bi-arrow-repeat me-2"></i>Lifetime exchange &amp;
+          buyback</span
+        >
+      </div>
+    </div>
+    <!-- ══════════ Navbar ══════════ -->
+
+    <nav
+      class="navbar navbar-expand-lg sticky-top"
+      id="mainNav"
+      aria-label="Main navigation"
+    >
+      <div class="container-fluid">
+        <!-- Navbar Content -->
+        <div class="d-flex align-items-center w-100">
+          <!-- ===================== -->
+          <!-- Logo -->
+          <!-- ===================== -->
+          <a class="navbar-brand d-flex align-items-center gap-2" href="#home">
+            <span class="brand-gem">
+              <i class="bi bi-gem"></i>
+            </span>
+
+            <span class="brand-text"> Mavy <em>Jewels</em> </span>
+          </a>
+
+          <!-- ===================== -->
+          <!-- Search -->
+          <!-- ===================== -->
+          <div class="search-wrapper flex-grow-1 mx-3">
+            <form class="d-flex w-100" role="search">
+              <input
+                class="form-control rounded-start-pill"
+                type="search"
+                placeholder="Search products..."
+                aria-label="Search"
+              />
+
+              <button class="btn btn-maroon rounded-end-pill" type="submit">
+                <i class="bi bi-search"></i>
+              </button>
+            </form>
+          </div>
+
+          <!-- ===================== -->
+          <!-- Burger -->
+          <!-- ===================== -->
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navContent"
+            aria-controls="navContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <i class="bi bi-list"></i>
+          </button>
+
+          <!-- ===================== -->
+          <!-- Navbar Collapse -->
+          <!-- ===================== -->
+          <div class="collapse navbar-collapse" id="navContent">
+            <!-- Navigation Links -->
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0" id="navMenu">
+              <li class="nav-item">
+                <a class="nav-link active" href="#home"> Home </a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="#products"> Products </a>
+              </li>
+
+              <!-- Categories -->
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#products"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Categories
+                </a>
+
+                <ul class="dropdown-menu">
+                  <!-- All Jewellery -->
+                  <li>
+                    <a
+                      class="dropdown-item filter-link"
+                      href="#products"
+                      data-filter="all"
+                    >
+                      All Jewellery
+                    </a>
+                  </li>
+
+                  <li>
+                    <hr class="dropdown-divider" />
+                  </li>
+
+                  <!-- Rings -->
+                  <li class="dropdown-submenu">
+                    <a
+                      class="dropdown-item filter-link"
+                      href="#products"
+                      data-filter="rings"
+                    >
+                      Rings
+                      <small>· 120+ designs</small>
+                    </a>
+
+                    <ul class="dropdown-menu">
+                      <li class="dropdown-submenu">
+                        <a class="dropdown-item" href="#rings"> Gold Rings </a>
+                        <ul class="dropdown-menu">
+                          <li>
+                            <a class="dropdown-item" href="#rings"
+                              >22K Quality</a
+                            >
+                          </li>
+                          <li>
+                            <a class="dropdown-item" href="#rings"
+                              >18K Quality</a
+                            >
+                          </li>
+                        </ul>
+                      </li>
+
+                      <li class="dropdown-submenu">
+                        <a class="dropdown-item" href="#home">
+                          Diamond Rings
+                        </a>
+                        <ul class="dropdown-menu">
+                          <li>
+                            <a class="dropdown-item" href="#rings"
+                              >22K Quality</a
+                            >
+                          </li>
+                          <li>
+                            <a class="dropdown-item" href="#rings"
+                              >18K Quality</a
+                            >
+                          </li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </li>
+
+                  <!-- Necklaces -->
+                  <li class="dropdown-submenu">
+                    <a
+                      class="dropdown-item filter-link"
+                      href="#products"
+                      data-filter="necklaces"
+                    >
+                      Necklaces
+                      <small>· 85+ designs</small>
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li class="dropdown-submenu">
+                        <a class="dropdown-item" href="#rings">
+                          Gold Necklaces
+                        </a>
+                        <ul class="dropdown-menu">
+                          <li>
+                            <a class="dropdown-item" href="#rings"
+                              >22K Quality</a
+                            >
+                          </li>
+                          <li>
+                            <a class="dropdown-item" href="#rings"
+                              >18K Quality</a
+                            >
+                          </li>
+                        </ul>
+                      </li>
+
+                      <li class="dropdown-submenu">
+                        <a class="dropdown-item" href="#home">
+                          Diamond Necklaces
+                        </a>
+                        <ul class="dropdown-menu">
+                          <li>
+                            <a class="dropdown-item" href="#rings"
+                              >22K Quality</a
+                            >
+                          </li>
+                          <li>
+                            <a class="dropdown-item" href="#rings"
+                              >18K Quality</a
+                            >
+                          </li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </li>
+
+                  <!-- Earrings -->
+                  <li class="dropdown-submenu">
+                    <a
+                      class="dropdown-item filter-link"
+                      href="#products"
+                      data-filter="earrings"
+                    >
+                      Earrings
+                      <small>· 150+ designs</small>
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li class="dropdown-submenu">
+                        <a class="dropdown-item" href="#rings">
+                          Gold Earrings
+                        </a>
+                        <ul class="dropdown-menu">
+                          <li>
+                            <a class="dropdown-item" href="#rings"
+                              >22K Quality</a
+                            >
+                          </li>
+                          <li>
+                            <a class="dropdown-item" href="#rings"
+                              >18K Quality</a
+                            >
+                          </li>
+                        </ul>
+                      </li>
+
+                      <li class="dropdown-submenu">
+                        <a class="dropdown-item" href="#home">
+                          Diamond Earrings
+                        </a>
+                        <ul class="dropdown-menu">
+                          <li>
+                            <a class="dropdown-item" href="#rings"
+                              >22K Quality</a
+                            >
+                          </li>
+                          <li>
+                            <a class="dropdown-item" href="#rings"
+                              >18K Quality</a
+                            >
+                          </li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </li>
+
+                  <!-- Bangles -->
+                  <li class="dropdown-submenu">
+                    <a
+                      class="dropdown-item filter-link"
+                      href="#products"
+                      data-filter="bangles"
+                    >
+                      Bangles &amp; Bracelets
+                      <small>· 90+ designs</small>
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li class="dropdown-submenu">
+                        <a class="dropdown-item" href="#rings"> Gold </a>
+                        <ul class="dropdown-menu">
+                          <li>
+                            <a class="dropdown-item" href="#rings"
+                              >22K Quality</a
+                            >
+                          </li>
+                          <li>
+                            <a class="dropdown-item" href="#rings"
+                              >18K Quality</a
+                            >
+                          </li>
+                        </ul>
+                      </li>
+
+                      <li class="dropdown-submenu">
+                        <a class="dropdown-item" href="#home"> Diamond </a>
+                        <ul class="dropdown-menu">
+                          <li>
+                            <a class="dropdown-item" href="#rings"
+                              >22K Quality</a
+                            >
+                          </li>
+                          <li>
+                            <a class="dropdown-item" href="#rings"
+                              >18K Quality</a
+                            >
+                          </li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+
+              <!-- Blog -->
+              <li class="nav-item">
+                <a class="nav-link" href="#blog"> Blog </a>
+              </li>
+
+              <!-- Reviews -->
+              <li class="nav-item">
+                <a class="nav-link" href="#reviews"> Reviews </a>
+              </li>
+
+              <!-- Contact -->
+              <li class="nav-item">
+                <a class="nav-link" href="#contact"> Contact </a>
+              </li>
+            </ul>
+
+            <!-- ===================== -->
+            <!-- Right Side Actions -->
+            <!-- ===================== -->
+            <div class="nav-actions d-flex align-items-center gap-2 ms-lg-4">
+              <!-- Account -->
+              <button class="account-btn" type="button" aria-label="Account">
+                <i class="bi bi-person"></i>
+              </button>
+
+              <!-- Cart -->
+              <button
+                class="cart-btn position-relative"
+                id="cartBtn"
+                type="button"
+                aria-label="Shopping bag"
+              >
+                <i class="bi bi-bag"></i>
+
+                <span
+                  class="position-absolute top-0 start-100 translate-middle badge rounded-pill"
+                  id="cartBadge"
+                >
+                  0
+                </span>
+              </button>
+
+              <!-- Book a Visit -->
+              <a
+                href="#contact"
+                class="btn btn-gold d-none d-sm-inline-flex align-items-center"
+              >
+                Book a Visit
+              </a>
+            </div>
+          </div>
+          <!-- End Navbar Collapse -->
+        </div>
+        <!-- End Navbar Content -->
+      </div>
+    </nav>
+
+    <!-- ══════════ Hero — promotional product banner carousel ══════════ -->
+    <section id="home" aria-label="Featured collections">
+      <div
+        id="heroCarousel"
+        class="carousel slide carousel-fade"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#heroCarousel"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#heroCarousel"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#heroCarousel"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+          ></button>
+        </div>
+
+        <div class="carousel-inner">
+          <!-- Slide 1 : Bridal -->
+          <div class="carousel-item active" data-bs-interval="5500">
+            <img
+              src="assets/img/banner-bridal.jpg"
+              alt="Kundan bridal gold necklace displayed on blush pink silk"
+            />
+            <div class="hero-shade"></div>
+            <div class="container hero-caption">
+              <div class="hero-inner col-12 col-lg-7">
+                <span class="hero-eyebrow">The Bridal Edit · 2026</span>
+                <h1>Timeless Elegance,<br /><em>Crafted in Gold</em></h1>
+                <p>
+                  Hand-set kundan &amp; polki sets — BIS hallmarked and finished
+                  by master artisans in Sonipat for your forever day.
+                </p>
+                <div class="d-flex gap-3 flex-wrap">
+                  <a href="#products" class="btn btn-gold btn-lg"
+                    >Shop the Collection</a
+                  >
+                  <a href="#categories" class="btn btn-ghost btn-lg"
+                    >Explore Categories</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Slide 2 : Everyday gold -->
+          <div class="carousel-item" data-bs-interval="5500">
+            <img
+              src="assets/img/banner-everyday.jpg"
+              alt="Everyday gold jewellery styled on pink marble"
+            />
+            <div class="hero-shade shade-right"></div>
+            <div class="container hero-caption cap-right">
+              <div class="hero-inner col-12 col-lg-6">
+                <span class="hero-eyebrow">Everyday Gold</span>
+                <h1>Lightweight Luxe,<br /><em>Made for Daily Shine</em></h1>
+                <p>
+                  Delicate earrings, pendants &amp; rings starting at ₹4,999 —
+                  crafted for offices, brunches and everything in between.
+                </p>
+                <div class="d-flex gap-3 flex-wrap">
+                  <a href="#products" class="btn btn-gold btn-lg"
+                    >Shop Everyday Gold</a
+                  >
+                  <a href="#reviews" class="btn btn-ghost btn-lg"
+                    >Customer Stories</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Slide 3 : Diamond offer -->
+          <div class="carousel-item" data-bs-interval="5500">
+            <img
+              src="assets/img/banner-diamond.jpg"
+              alt="Solitaire diamond ring on a pink velvet pedestal"
+            />
+            <div class="hero-shade"></div>
+            <div class="container hero-caption">
+              <div class="hero-inner col-12 col-lg-7">
+                <span class="hero-eyebrow">Festive Offer · Limited Days</span>
+                <h1>20% Off on<br /><em>Diamond Rings</em></h1>
+                <p>
+                  Certified solitaires &amp; halo designs for the season of
+                  proposals. Use code SPARK20 at checkout — this week only.
+                </p>
+                <div class="d-flex gap-3 flex-wrap">
+                  <a href="#products" class="btn btn-gold btn-lg"
+                    >Grab the Offer</a
+                  >
+                  <a href="#contact" class="btn btn-ghost btn-lg"
+                    >Visit the Store</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#heroCarousel"
+          data-bs-slide="prev"
+        >
+          <span class="ctrl" aria-hidden="true"
+            ><i class="bi bi-chevron-left"></i
+          ></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#heroCarousel"
+          data-bs-slide="next"
+        >
+          <span class="ctrl" aria-hidden="true"
+            ><i class="bi bi-chevron-right"></i
+          ></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </section>
+    <!-- ══════════ Feature strip ══════════ -->
+    <section class="features" aria-label="Store features">
+      <div class="container">
+        <div class="row g-3 g-lg-4">
+          <div class="col-6 col-lg-3 reveal">
+            <div class="feature-card h-100">
+              <div class="feature-ic"><i class="bi bi-shield-check"></i></div>
+              <h6>Certified Authentic</h6>
+              <small>BIS hallmark &amp; certified diamonds</small>
+            </div>
+          </div>
+          <div class="col-6 col-lg-3 reveal">
+            <div class="feature-card h-100">
+              <div class="feature-ic"><i class="bi bi-truck"></i></div>
+              <h6>Free Insured Shipping</h6>
+              <small>Safe delivery across India</small>
+            </div>
+          </div>
+          <div class="col-6 col-lg-3 reveal">
+            <div class="feature-card h-100">
+              <div class="feature-ic"><i class="bi bi-arrow-repeat"></i></div>
+              <h6>Lifetime Exchange</h6>
+              <small>Easy exchange &amp; gold buyback</small>
+            </div>
+          </div>
+          <div class="col-6 col-lg-3 reveal">
+            <div class="feature-card h-100">
+              <div class="feature-ic"><i class="bi bi-headset"></i></div>
+              <h6>24×7 Assistance</h6>
+              <small>Design advice on call &amp; chat</small>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ══════════ Categories ══════════ -->
+    <section id="categories" class="sec bg-white">
+      <div class="container">
+        <div class="sec-head reveal">
+          <span class="sec-eyebrow">Browse by Category</span>
+          <h2>Find Your Kind of Sparkle</h2>
+          <p>
+            Four signature collections, hundreds of hand-finished designs — tap
+            any category to shop it instantly.
+          </p>
+        </div>
+        <div class="row g-3 g-lg-4">
+          <div class="col-6 col-lg-3 reveal">
+            <a
+              href="#products"
+              class="cat-card filter-link d-block h-100"
+              data-filter="rings"
+            >
+              <img
+                src="assets/img/cat-rings.jpg"
+                alt="Rings category"
+                loading="lazy"
+              />
+              <div class="cat-overlay"></div>
+              <div class="cat-info">
+                <h5>Rings</h5>
+                <small>120+ designs</small>
+              </div>
+              <span class="cat-arrow"><i class="bi bi-arrow-right"></i></span>
+            </a>
+          </div>
+          <div class="col-6 col-lg-3 reveal">
+            <a
+              href="#products"
+              class="cat-card filter-link d-block h-100"
+              data-filter="necklaces"
+            >
+              <img
+                src="assets/img/cat-necklaces.jpg"
+                alt="Necklaces category"
+                loading="lazy"
+              />
+              <div class="cat-overlay"></div>
+              <div class="cat-info">
+                <h5>Necklaces</h5>
+                <small>85+ designs</small>
+              </div>
+              <span class="cat-arrow"><i class="bi bi-arrow-right"></i></span>
+            </a>
+          </div>
+          <div class="col-6 col-lg-3 reveal">
+            <a
+              href="#products"
+              class="cat-card filter-link d-block h-100"
+              data-filter="earrings"
+            >
+              <img
+                src="assets/img/cat-earrings.jpg"
+                alt="Earrings category"
+                loading="lazy"
+              />
+              <div class="cat-overlay"></div>
+              <div class="cat-info">
+                <h5>Earrings</h5>
+                <small>150+ designs</small>
+              </div>
+              <span class="cat-arrow"><i class="bi bi-arrow-right"></i></span>
+            </a>
+          </div>
+          <div class="col-6 col-lg-3 reveal">
+            <a
+              href="#products"
+              class="cat-card filter-link d-block h-100"
+              data-filter="bangles"
+            >
+              <img
+                src="assets/img/cat-bangles.jpg"
+                alt="Bangles and bracelets category"
+                loading="lazy"
+              />
+              <div class="cat-overlay"></div>
+              <div class="cat-info">
+                <h5>Bangles</h5>
+                <small>90+ designs</small>
+              </div>
+              <span class="cat-arrow"><i class="bi bi-arrow-right"></i></span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ══════════ Products ══════════ -->
+    <section id="products" class="sec">
+      <div class="container">
+        <div class="sec-head reveal">
+          <span class="sec-eyebrow">Handpicked For You</span>
+          <h2>Our Bestsellers</h2>
+          <p>
+            Every piece is BIS hallmarked, hand-finished and shipped in our
+            signature blush-pink keepsake box.
+          </p>
+          <div
+            class="filter-chips d-flex justify-content-center flex-wrap gap-2 mt-4"
+          >
+            <button class="filter-chip active" type="button" data-filter="all">
+              All
+            </button>
+            <button class="filter-chip" type="button" data-filter="rings">
+              Rings
+            </button>
+            <button class="filter-chip" type="button" data-filter="necklaces">
+              Necklaces
+            </button>
+            <button class="filter-chip" type="button" data-filter="earrings">
+              Earrings
+            </button>
+            <button class="filter-chip" type="button" data-filter="bangles">
+              Bangles &amp; Bracelets
+            </button>
+          </div>
+        </div>
+
+        <div class="row g-4" id="productGrid">
+          <!-- 1 -->
+          <div
+            class="col-6 col-lg-4 col-xl-3 reveal product-col"
+            data-cat="necklaces"
+          >
+            <article class="product-card h-100">
+              <div class="p-thumb">
+                <img
+                  src="assets/img/p-kundan-necklace.jpg"
+                  alt="Kundan bridal necklace"
+                  loading="lazy"
+                />
+                <span class="p-badge badge-new">Bestseller</span>
+                <button
+                  class="p-quick add-cart"
+                  type="button"
+                  data-name="Kundan Bridal Necklace"
+                >
+                  Add to Cart <i class="bi bi-bag-plus ms-1"></i>
+                </button>
+              </div>
+              <div class="p-body">
+                <div class="d-flex justify-content-between align-items-center">
+                  <span class="p-cat">Necklaces</span>
+                  <span class="p-stars"
+                    ><i class="bi bi-star-fill"></i
+                    ><i class="bi bi-star-fill"></i
+                    ><i class="bi bi-star-fill"></i
+                    ><i class="bi bi-star-fill"></i
+                    ><i class="bi bi-star-fill"></i><small>(38)</small></span
+                  >
+                </div>
+                <h5 class="p-name">
+                  <a href="#products">Kundan Bridal Necklace</a>
+                </h5>
+                <div
+                  class="d-flex justify-content-between align-items-center mt-auto"
+                >
+                  <div class="p-price">₹24,999 <del>₹29,999</del></div>
+                  <button
+                    class="p-add add-cart"
+                    type="button"
+                    data-name="Kundan Bridal Necklace"
+                    aria-label="Add Kundan Bridal Necklace to bag"
+                  >
+                    <i class="bi bi-bag-plus"></i>
+                  </button>
+                </div>
+              </div>
+            </article>
+          </div>
+
+          <!-- 2 -->
+          <div
+            class="col-6 col-lg-4 col-xl-3 reveal product-col"
+            data-cat="rings"
+          >
+            <article class="product-card h-100">
+              <div class="p-thumb">
+                <img
+                  src="assets/img/p-solitaire-ring.jpg"
+                  alt="Solitaire diamond ring"
+                  loading="lazy"
+                />
+                <span class="p-badge badge-new">New</span>
+                <button
+                  class="p-quick add-cart"
+                  type="button"
+                  data-name="Solitaire Diamond Ring"
+                >
+                  Add to Cart <i class="bi bi-bag-plus ms-1"></i>
+                </button>
+              </div>
+              <div class="p-body">
+                <div class="d-flex justify-content-between align-items-center">
+                  <span class="p-cat">Rings</span>
+                  <span class="p-stars"
+                    ><i class="bi bi-star-fill"></i
+                    ><i class="bi bi-star-fill"></i
+                    ><i class="bi bi-star-fill"></i
+                    ><i class="bi bi-star-fill"></i
+                    ><i class="bi bi-star-half"></i><small>(52)</small></span
+                  >
+                </div>
+                <h5 class="p-name">
+                  <a href="#products">Solitaire Diamond Ring</a>
+                </h5>
+                <div
+                  class="d-flex justify-content-between align-items-center mt-auto"
+                >
+                  <div class="p-price">₹18,499 <del>₹21,999</del></div>
+                  <button
+                    class="p-add add-cart"
+                    type="button"
+                    data-name="Solitaire Diamond Ring"
+                    aria-label="Add Solitaire Diamond Ring to bag"
+                  >
+                    <i class="bi bi-bag-plus"></i>
+                  </button>
+                </div>
+              </div>
+            </article>
+          </div>
+
+          <!-- 3 -->
+          <div
+            class="col-6 col-lg-4 col-xl-3 reveal product-col"
+            data-cat="earrings"
+          >
+            <article class="product-card h-100">
+              <div class="p-thumb">
+                <img
+                  src="assets/img/p-jhumka.jpg"
+                  alt="Classic gold jhumka earrings"
+                  loading="lazy"
+                />
+                <button
+                  class="p-quick add-cart"
+                  type="button"
+                  data-name="Classic Gold Jhumkas"
+                >
+                  Add to Cart <i class="bi bi-bag-plus ms-1"></i>
+                </button>
+              </div>
+              <div class="p-body">
+                <div class="d-flex justify-content-between align-items-center">
+                  <span class="p-cat">Earrings</span>
+                  <span class="p-stars"
+                    ><i class="bi bi-star-fill"></i
+                    ><i class="bi bi-star-fill"></i
+                    ><i class="bi bi-star-fill"></i
+                    ><i class="bi bi-star-fill"></i
+                    ><i class="bi bi-star-half"></i><small>(64)</small></span
+                  >
+                </div>
+                <h5 class="p-name">
+                  <a href="#products">Classic Gold Jhumkas</a>
+                </h5>
+                <div
+                  class="d-flex justify-content-between align-items-center mt-auto"
+                >
+                  <div class="p-price">₹9,750 <del>₹11,500</del></div>
+                  <button
+                    class="p-add add-cart"
+                    type="button"
+                    data-name="Classic Gold Jhumkas"
+                    aria-label="Add Classic Gold Jhumkas to bag"
+                  >
+                    <i class="bi bi-bag-plus"></i>
+                  </button>
+                </div>
+              </div>
+            </article>
+          </div>
+
+          <!-- 4 -->
+          <div
+            class="col-6 col-lg-4 col-xl-3 reveal product-col"
+            data-cat="necklaces"
+          >
+            <article class="product-card h-100">
+              <div class="p-thumb">
+                <img
+                  src="assets/img/p-pearl-pendant.jpg"
+                  alt="Pearl drop pendant set"
+                  loading="lazy"
+                />
+                <span class="p-badge badge-sale">Sale</span>
+                <button
+                  class="p-quick add-cart"
+                  type="button"
+                  data-name="Pearl Drop Pendant Set"
+                >
+                  Add to Cart <i class="bi bi-bag-plus ms-1"></i>
+                </button>
+              </div>
+              <div class="p-body">
+                <div class="d-flex justify-content-between align-items-center">
+                  <span class="p-cat">Necklaces</span>
+                  <span class="p-stars"
+                    ><i class="bi bi-star-fill"></i
+                    ><i class="bi bi-star-fill"></i
+                    ><i class="bi bi-star-fill"></i
+                    ><i class="bi bi-star-fill"></i
+                    ><i class="bi bi-star-half"></i><small>(29)</small></span
+                  >
+                </div>
+                <h5 class="p-name">
+                  <a href="#products">Pearl Drop Pendant Set</a>
+                </h5>
+                <div
+                  class="d-flex justify-content-between align-items-center mt-auto"
+                >
+                  <div class="p-price">₹7,250 <del>₹8,999</del></div>
+                  <button
+                    class="p-add add-cart"
+                    type="button"
+                    data-name="Pearl Drop Pendant Set"
+                    aria-label="Add Pearl Drop Pendant Set to bag"
+                  >
+                    <i class="bi bi-bag-plus"></i>
+                  </button>
+                </div>
+              </div>
+            </article>
+          </div>
+
+          <!-- 5 -->
+          <div
+            class="col-6 col-lg-4 col-xl-3 reveal product-col"
+            data-cat="bangles"
+          >
+            <article class="product-card h-100">
+              <div class="p-thumb">
+                <img
+                  src="assets/img/p-emerald-bangles.jpg"
+                  alt="Emerald gold bangles"
+                  loading="lazy"
+                />
+                <button
+                  class="p-quick add-cart"
+                  type="button"
+                  data-name="Emerald Gold Bangles"
+                >
+                  Add to Cart <i class="bi bi-bag-plus ms-1"></i>
+                </button>
+              </div>
+              <div class="p-body">
+                <div class="d-flex justify-content-between align-items-center">
+                  <span class="p-cat">Bangles</span>
+                  <span class="p-stars"
+                    ><i class="bi bi-star-fill"></i
+                    ><i class="bi bi-star-fill"></i
+                    ><i class="bi bi-star-fill"></i
+                    ><i class="bi bi-star-fill"></i
+                    ><i class="bi bi-star-half"></i><small>(41)</small></span
+                  >
+                </div>
+                <h5 class="p-name">
+                  <a href="#products">Emerald Gold Bangles</a>
+                </h5>
+                <div
+                  class="d-flex justify-content-between align-items-center mt-auto"
+                >
+                  <div class="p-price">₹15,999 <del>₹18,999</del></div>
+                  <button
+                    class="p-add add-cart"
+                    type="button"
+                    data-name="Emerald Gold Bangles"
+                    aria-label="Add Emerald Gold Bangles to bag"
+                  >
+                    <i class="bi bi-bag-plus"></i>
+                  </button>
+                </div>
+              </div>
+            </article>
+          </div>
+
+          <!-- 6 -->
+          <div
+            class="col-6 col-lg-4 col-xl-3 reveal product-col"
+            data-cat="bangles"
+          >
+            <article class="product-card h-100">
+              <div class="p-thumb">
+                <img
+                  src="assets/img/p-tennis-bracelet.jpg"
+                  alt="Rose gold tennis bracelet"
+                  loading="lazy"
+                />
+                <span class="p-badge badge-new">New</span>
+                <button
+                  class="p-quick add-cart"
+                  type="button"
+                  data-name="Rose Gold Tennis Bracelet"
+                >
+                  Add to Cart <i class="bi bi-bag-plus ms-1"></i>
+                </button>
+              </div>
+              <div class="p-body">
+                <div class="d-flex justify-content-between align-items-center">
+                  <span class="p-cat">Bangles</span>
+                  <span class="p-stars"
+                    ><i class="bi bi-star-fill"></i
+                    ><i class="bi bi-star-fill"></i
+                    ><i class="bi bi-star-fill"></i
+                    ><i class="bi bi-star-fill"></i
+                    ><i class="bi bi-star-half"></i><small>(33)</small></span
+                  >
+                </div>
+                <h5 class="p-name">
+                  <a href="#products">Rose Gold Tennis Bracelet</a>
+                </h5>
+                <div
+                  class="d-flex justify-content-between align-items-center mt-auto"
+                >
+                  <div class="p-price">₹12,250 <del>₹14,500</del></div>
+                  <button
+                    class="p-add add-cart"
+                    type="button"
+                    data-name="Rose Gold Tennis Bracelet"
+                    aria-label="Add Rose Gold Tennis Bracelet to bag"
+                  >
+                    <i class="bi bi-bag-plus"></i>
+                  </button>
+                </div>
+              </div>
+            </article>
+          </div>
+
+          <!-- 7 -->
+          <div
+            class="col-6 col-lg-4 col-xl-3 reveal product-col"
+            data-cat="earrings"
+          >
+            <article class="product-card h-100">
+              <div class="p-thumb">
+                <img
+                  src="assets/img/p-chandbali.jpg"
+                  alt="Antique chandbali earrings"
+                  loading="lazy"
+                />
+                <span class="p-badge badge-new">Bestseller</span>
+                <button
+                  class="p-quick add-cart"
+                  type="button"
+                  data-name="Antique Chandbali Earrings"
+                >
+                  Add to Cart <i class="bi bi-bag-plus ms-1"></i>
+                </button>
+              </div>
+              <div class="p-body">
+                <div class="d-flex justify-content-between align-items-center">
+                  <span class="p-cat">Earrings</span>
+                  <span class="p-stars"
+                    ><i class="bi bi-star-fill"></i
+                    ><i class="bi bi-star-fill"></i
+                    ><i class="bi bi-star-fill"></i
+                    ><i class="bi bi-star-fill"></i
+                    ><i class="bi bi-star-half"></i><small>(57)</small></span
+                  >
+                </div>
+                <h5 class="p-name">
+                  <a href="#products">Antique Chandbali Earrings</a>
+                </h5>
+                <div
+                  class="d-flex justify-content-between align-items-center mt-auto"
+                >
+                  <div class="p-price">₹8,999 <del>₹10,750</del></div>
+                  <button
+                    class="p-add add-cart"
+                    type="button"
+                    data-name="Antique Chandbali Earrings"
+                    aria-label="Add Antique Chandbali Earrings to bag"
+                  >
+                    <i class="bi bi-bag-plus"></i>
+                  </button>
+                </div>
+              </div>
+            </article>
+          </div>
+
+          <!-- 8 -->
+          <div
+            class="col-6 col-lg-4 col-xl-3 reveal product-col"
+            data-cat="rings"
+          >
+            <article class="product-card h-100">
+              <div class="p-thumb">
+                <img
+                  src="assets/img/p-couple-bands.jpg"
+                  alt="Couple band ring set"
+                  loading="lazy"
+                />
+                <span class="p-badge badge-sale">Sale</span>
+                <button
+                  class="p-quick add-cart"
+                  type="button"
+                  data-name="Couple Band Ring Set"
+                >
+                  Add to Cart <i class="bi bi-bag-plus ms-1"></i>
+                </button>
+              </div>
+              <div class="p-body">
+                <div class="d-flex justify-content-between align-items-center">
+                  <span class="p-cat">Rings</span>
+                  <span class="p-stars"
+                    ><i class="bi bi-star-fill"></i
+                    ><i class="bi bi-star-fill"></i
+                    ><i class="bi bi-star-fill"></i
+                    ><i class="bi bi-star-fill"></i
+                    ><i class="bi bi-star-half"></i><small>(22)</small></span
+                  >
+                </div>
+                <h5 class="p-name">
+                  <a href="#products">Couple Band Ring Set</a>
+                </h5>
+                <div
+                  class="d-flex justify-content-between align-items-center mt-auto"
+                >
+                  <div class="p-price">₹13,499 <del>₹15,999</del></div>
+                  <button
+                    class="p-add add-cart"
+                    type="button"
+                    data-name="Couple Band Ring Set"
+                    aria-label="Add Couple Band Ring Set to bag"
+                  >
+                    <i class="bi bi-bag-plus"></i>
+                  </button>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ══════════ Design blog / journal ══════════ -->
+    <section id="blog" class="sec bg-white">
+      <div class="container">
+        <div class="sec-head reveal">
+          <span class="sec-eyebrow">Design Journal</span>
+          <h2>From the Jewellery Design Blog</h2>
+          <p>
+            Trade secrets, trend reports and behind-the-scenes stories from our
+            design studio.
+          </p>
+        </div>
+        <div class="row g-4">
+          <div class="col-md-6 col-lg-4 reveal">
+            <article class="blog-card h-100">
+              <a href="#blog" class="blog-thumb">
+                <img
+                  src="assets/img/blog-bridal.jpg"
+                  alt="Bridal jewellery flat lay"
+                  loading="lazy"
+                />
+                <span class="blog-date">14 Jun 2026</span>
+              </a>
+              <div class="blog-body">
+                <span class="blog-tag">Bridal Guide · 6 min read</span>
+                <h5>
+                  <a href="#blog"
+                    >5 Bridal Jewellery Trends Dominating This Wedding Season</a
+                  >
+                </h5>
+                <p>
+                  From layered rani haars to sculptural gold cuffs — here's what
+                  brides are asking our design studio for in 2026, and how to
+                  style it all.
+                </p>
+                <a href="#blog" class="read-more"
+                  >Read Article <i class="bi bi-arrow-right ms-1"></i
+                ></a>
+              </div>
+            </article>
+          </div>
+          <div class="col-md-6 col-lg-4 reveal">
+            <article class="blog-card h-100">
+              <a href="#blog" class="blog-thumb">
+                <img
+                  src="assets/img/blog-workshop.jpg"
+                  alt="Artisan crafting a kundan necklace"
+                  loading="lazy"
+                />
+                <span class="blog-date">02 Jul 2026</span>
+              </a>
+              <div class="blog-body">
+                <span class="blog-tag">Craft Stories · 4 min read</span>
+                <h5>
+                  <a href="#blog"
+                    >Inside the Workshop: How a Kundan Set Comes to Life</a
+                  >
+                </h5>
+                <p>
+                  42 artisans, 18 days and 3,200 hand-set stones — a
+                  behind-the-scenes look at how our most-loved bridal necklace
+                  is made.
+                </p>
+                <a href="#blog" class="read-more"
+                  >Read Article <i class="bi bi-arrow-right ms-1"></i
+                ></a>
+              </div>
+            </article>
+          </div>
+          <div class="col-md-6 col-lg-4 reveal">
+            <article class="blog-card h-100">
+              <a href="#blog" class="blog-thumb">
+                <img
+                  src="assets/img/blog-care.jpg"
+                  alt="Jewellery care essentials on pink velvet"
+                  loading="lazy"
+                />
+                <span class="blog-date">19 Aug 2026</span>
+              </a>
+              <div class="blog-body">
+                <span class="blog-tag">Care Guide · 3 min read</span>
+                <h5>
+                  <a href="#blog"
+                    >The Right Way to Care for Your Gold &amp; Diamond
+                    Jewellery</a
+                  >
+                </h5>
+                <p>
+                  Keep that first-day sparkle forever — our jewellers share the
+                  cleaning, storage and wearing habits that protect your pieces.
+                </p>
+                <a href="#blog" class="read-more"
+                  >Read Article <i class="bi bi-arrow-right ms-1"></i
+                ></a>
+              </div>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ══════════ Customer reviews — Swiper ══════════ -->
+    <section id="reviews" class="sec sec-reviews">
+      <div class="container">
+        <div class="sec-head reveal">
+          <span class="sec-eyebrow">Testimonials</span>
+          <h2>What Our Customers Say</h2>
+          <div class="rating-summary">
+            <strong>4.9</strong>
+            <span class="p-stars"
+              ><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i
+              ><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i
+              ><i class="bi bi-star-half"></i
+            ></span>
+            <small>from 2,300+ verified reviews</small>
+          </div>
+        </div>
+
+        <div class="swiper review-swiper reveal">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <div class="review-card">
+                <i class="bi bi-quote review-quote"></i>
+                <div class="p-stars mb-2">
+                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i
+                  ><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i
+                  ><i class="bi bi-star-fill"></i>
+                </div>
+                <p class="review-text">
+                  I bought my entire bridal set from Mavy and the craftsmanship
+                  is beyond words. The kundan work is so intricate, and the team
+                  made everything feel personal. I got compliments all evening!
+                </p>
+                <div class="review-foot">
+                  <span class="review-avatar">PS</span>
+                  <div>
+                    <h6>Priya Sharma</h6>
+                    <small
+                      ><i class="bi bi-patch-check-fill"></i> Verified Buyer ·
+                      Sonipat</small
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="swiper-slide">
+              <div class="review-card">
+                <i class="bi bi-quote review-quote"></i>
+                <div class="p-stars mb-2">
+                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i
+                  ><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i
+                  ><i class="bi bi-star-fill"></i>
+                </div>
+                <p class="review-text">
+                  Ordered the solitaire ring online and it arrived in two days,
+                  packaged beautifully in that signature pink box. It looks even
+                  better than the photos. Highly recommended!
+                </p>
+                <div class="review-foot">
+                  <span class="review-avatar">AG</span>
+                  <div>
+                    <h6>Ananya Gupta</h6>
+                    <small
+                      ><i class="bi bi-patch-check-fill"></i> Verified Buyer ·
+                      New Delhi</small
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="swiper-slide">
+              <div class="review-card">
+                <i class="bi bi-quote review-quote"></i>
+                <div class="p-stars mb-2">
+                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i
+                  ><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i
+                  ><i class="bi bi-star"></i>
+                </div>
+                <p class="review-text">
+                  Great collection at honest prices. I gifted my mother the
+                  emerald bangles on her birthday and she hasn't taken them off
+                  since. The staff patiently helped me pick the perfect design.
+                </p>
+                <div class="review-foot">
+                  <span class="review-avatar">RM</span>
+                  <div>
+                    <h6>Rohan Mehra</h6>
+                    <small
+                      ><i class="bi bi-patch-check-fill"></i> Verified Buyer ·
+                      Panipat</small
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="swiper-slide">
+              <div class="review-card">
+                <i class="bi bi-quote review-quote"></i>
+                <div class="p-stars mb-2">
+                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i
+                  ><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i
+                  ><i class="bi bi-star-fill"></i>
+                </div>
+                <p class="review-text">
+                  The jhumkas are stunning and so lightweight — I wear them to
+                  office and to parties alike. Their lifetime exchange policy
+                  was the reason I chose Mavy over two other stores.
+                </p>
+                <div class="review-foot">
+                  <span class="review-avatar">SV</span>
+                  <div>
+                    <h6>Sneha Verma</h6>
+                    <small
+                      ><i class="bi bi-patch-check-fill"></i> Verified Buyer ·
+                      Sonipat</small
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="swiper-slide">
+              <div class="review-card">
+                <i class="bi bi-quote review-quote"></i>
+                <div class="p-stars mb-2">
+                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i
+                  ><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i
+                  ><i class="bi bi-star-fill"></i>
+                </div>
+                <p class="review-text">
+                  From design consultation to delivery, everything was seamless.
+                  My custom rani haar came out exactly like the sketch we
+                  finalised on the call. True artisans!
+                </p>
+                <div class="review-foot">
+                  <span class="review-avatar">KR</span>
+                  <div>
+                    <h6>Kavya Reddy</h6>
+                    <small
+                      ><i class="bi bi-patch-check-fill"></i> Verified Buyer ·
+                      Gurugram</small
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="swiper-slide">
+              <div class="review-card">
+                <i class="bi bi-quote review-quote"></i>
+                <div class="p-stars mb-2">
+                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i
+                  ><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i
+                  ><i class="bi bi-star"></i>
+                </div>
+                <p class="review-text">
+                  Bought a couple band set for our anniversary. Premium finish,
+                  proper BIS hallmark and a very smooth billing experience. We
+                  will definitely be back for our next milestone.
+                </p>
+                <div class="review-foot">
+                  <span class="review-avatar">AM</span>
+                  <div>
+                    <h6>Arjun Malhotra</h6>
+                    <small
+                      ><i class="bi bi-patch-check-fill"></i> Verified Buyer ·
+                      Chandigarh</small
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="swiper-slide">
+              <div class="review-card">
+                <i class="bi bi-quote review-quote"></i>
+                <div class="p-stars mb-2">
+                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i
+                  ><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i
+                  ><i class="bi bi-star-fill"></i>
+                </div>
+                <p class="review-text">
+                  Their design blog actually helped me choose! I followed their
+                  jewellery care guide and my gold set still looks brand new
+                  after a year of regular wear.
+                </p>
+                <div class="review-foot">
+                  <span class="review-avatar">MI</span>
+                  <div>
+                    <h6>Meera Iyer</h6>
+                    <small
+                      ><i class="bi bi-patch-check-fill"></i> Verified Buyer ·
+                      Kochi</small
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="swiper-slide">
+              <div class="review-card">
+                <i class="bi bi-quote review-quote"></i>
+                <div class="p-stars mb-2">
+                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i
+                  ><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i
+                  ><i class="bi bi-star-fill"></i>
+                </div>
+                <p class="review-text">
+                  Best jewellery shopping experience in NCR. Transparent
+                  pricing, zero pushy sales talk, and the gift packaging feels
+                  like a present in itself. Five stars, well earned.
+                </p>
+                <div class="review-foot">
+                  <span class="review-avatar">RK</span>
+                  <div>
+                    <h6>Rahul Khanna</h6>
+                    <small
+                      ><i class="bi bi-patch-check-fill"></i> Verified Buyer ·
+                      Jaipur</small
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-button-next"></div>
+          <div class="swiper-pagination"></div>
+        </div>
+
+        <div class="text-center mt-3">
+          <button
+            class="btn btn-outline-gold"
+            type="button"
+            data-bs-toggle="modal"
+            data-bs-target="#reviewModal"
+          >
+            <i class="bi bi-pencil-square me-2"></i>Write a Review
+          </button>
+        </div>
+      </div>
+    </section>
+    <!-- ══════════ Newsletter ══════════ -->
+    <section class="newsletter" aria-label="Newsletter">
+      <div class="container">
+        <div class="row align-items-center g-4 justify-content-between">
+          <div class="col-lg-6 reveal">
+            <h3>Join the Mavy Circle</h3>
+            <p class="mb-0">
+              New collections, design stories &amp; member-only previews —
+              straight to your inbox.
+            </p>
+          </div>
+          <div class="col-lg-5 reveal">
+            <form id="newsForm" class="news-form" novalidate>
+              <input
+                type="email"
+                class="form-control"
+                placeholder="Your email address"
+                aria-label="Email address"
+                required
+              />
+              <button class="btn btn-maroon" type="submit">Subscribe</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ══════════ Footer — About · Features · Address ══════════ -->
+    <footer id="contact" class="footer">
+      <div class="container">
+        <div class="row g-4 g-lg-5 pb-2">
+          <!-- About -->
+          <div class="col-lg-4">
+            <a
+              class="navbar-brand d-inline-flex align-items-center gap-2 mb-3"
+              href="#home"
+            >
+              <span class="brand-gem"><i class="bi bi-gem"></i></span>
+              <span class="brand-text">Mavy <em>Jewels</em></span>
+            </a>
+            <p class="footer-about">
+              For over 25 years, Mavy Jewels has been crafting timeless pieces
+              in the heart of Sonipat. From bridal heirlooms to everyday
+              elegance, every design is BIS hallmarked, hand-finished by master
+              artisans, and made to be loved for generations.
+            </p>
+            <div class="mt-3">
+              <a class="social" href="#home" aria-label="Facebook"
+                ><i class="bi bi-facebook"></i
+              ></a>
+              <a class="social" href="#home" aria-label="Instagram"
+                ><i class="bi bi-instagram"></i
+              ></a>
+              <a class="social" href="#home" aria-label="WhatsApp"
+                ><i class="bi bi-whatsapp"></i
+              ></a>
+              <a class="social" href="#home" aria-label="YouTube"
+                ><i class="bi bi-youtube"></i
+              ></a>
+            </div>
+          </div>
+
+          <!-- Quick links -->
+          <div class="col-6 col-lg-2">
+            <h6>Quick Links</h6>
+            <a class="link-f" href="#home">Home</a>
+            <a class="link-f" href="#products">Products</a>
+            <a class="link-f" href="#categories">Categories</a>
+            <a class="link-f" href="#blog">Design Blog</a>
+            <a class="link-f" href="#reviews">Reviews</a>
+            <a class="link-f" href="#contact">Book a Visit</a>
+          </div>
+
+          <!-- Features -->
+          <div class="col-6 col-lg-3">
+            <h6>Our Features</h6>
+            <ul class="footer-features">
+              <li>
+                <i class="bi bi-shield-check"></i> BIS Hallmarked 22K &amp; 18K
+                Gold
+              </li>
+              <li>
+                <i class="bi bi-patch-check"></i> Certified Diamonds &amp;
+                Gemstones
+              </li>
+              <li>
+                <i class="bi bi-arrow-repeat"></i> Lifetime Exchange &amp;
+                Buyback
+              </li>
+              <li>
+                <i class="bi bi-truck"></i> Free Insured Shipping Across India
+              </li>
+              <li><i class="bi bi-gift"></i> Signature Keepsake Packaging</li>
+            </ul>
+          </div>
+
+          <!-- Address / contact -->
+          <div class="col-lg-3">
+            <h6>Visit Our Store</h6>
+            <ul class="footer-contact">
+              <li>
+                <i class="bi bi-geo-alt"></i
+                ><span
+                  >Shop No. 12, Model Town Market,<br />
+                  Rohtak, Haryana 131001</span
+                >
+              </li>
+              <li>
+                <i class="bi bi-telephone"></i><span>+91 98765 43210</span>
+              </li>
+              <li>
+                <i class="bi bi-envelope"></i><span>care@mavyjewels.in</span>
+              </li>
+              <li>
+                <i class="bi bi-clock"></i
+                ><span>Mon – Sat · 10:30 AM – 8:30 PM</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div
+          class="footer-bottom d-flex flex-wrap justify-content-between align-items-center gap-2"
+        >
+          <span
+            >© <span id="year">2026</span> Mavy Jewels· All rights
+            reserved.</span
+          >
+          <span class="payments"
+            >UPI · Visa · MasterCard · RuPay · EMI Available</span
+          >
+        </div>
+      </div>
+    </footer>
+
+    <!-- js bundles for bootstrap and swiper  -->
+    <script src="vendor/bootstrap/bootstrap.bundle.min.js"></script>
+    <script src="vendor/swiper/swiper-bundle.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
